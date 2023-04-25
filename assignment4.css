@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  background-color: rgba(247, 185, 185, 0.845);
+}
+h4 {
+  color: rgb(77, 74, 74);
+}
+h1 {
+  font-size: 50px;
+  padding: 10px;
+  position: relative;
+  margin-top: 20px;
+}
+label {
+  color: rgb(83, 83, 83);
+}
+form {
+  background-color: white;
+  border: none;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 30px rgba(49, 48, 48, 0.545);
+  margin: 100px;
+  margin-top: 50px;
+}
+
+.name,
+.address,
+.contact,
+.delivery,
+.value,
+.quality {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.feilds,
+.contact {
+  flex-basis: 50%;
+  padding: 10px;
+}
+.contact {
+  padding: 20px;
+}
+.f1,
+.f2 {
+  width: 50%;
+}
+
+.feilds input,
+.contact input {
+  width: 100%;
+  border: none;
+  background-color: rgba(247, 185, 185, 0.845);
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delivery,
+.value,
+.quality {
+  flex-direction: column;
+  padding: 10px;
+}
+
+.delivery label,
+.value label,
+.quality label {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.delivery input,
+.value input,
+.quality input {
+  background-color: rgba(247, 185, 185, 0.845);
+}
+
+.button {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(247, 185, 185, 0.845);
+  font-size: 20px;
+  font-weight: 200;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(49, 48, 48, 0.545);
+}
+
+.button_block {
+  text-align: center;
+}
+@media (max-width: 600px) {
+  form {
+    padding: 40px;
+    margin: 60px;
+    margin-top: 20px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .button {
+    padding: 15px;
+  }
+}
+@media (max-width: 480px) {
+  form {
+    padding: 30px;
+    margin: 20px;
+    margin-top: 20px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .button {
+    padding: 10px;
+  }
+  .feilds,
+  .contact {
+    flex-basis: 100%;
+    padding: 8px;
+  }
+  .contact {
+    padding: 20px;
+  }
+}
