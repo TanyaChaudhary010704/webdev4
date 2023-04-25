@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="assignment4.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <br />
+    <center>
+      <h1>Survey Form</h1>
+    </center>
+
+    <form action="https://enw7u145b8im9.x.pipedream.net/" method="post">
+      <div class="form">
+        <h2>Enter Name:</h2>
+        <div class="name">
+          <div class="feilds">
+            <label for="first_name"
+              >First Name:
+              <input required type="name" id="first_name" name="first_name" />
+            </label>
+          </div>
+
+          <div class="feilds">
+            <label for="last_name"
+              >Last Name:
+              <input required type="name" id="last_name" name="last_name" />
+            </label>
+          </div>
+        </div>
+
+        <h2>Enter Address:</h2>
+        <div class="address">
+          <div class="f1">
+            <div class="feilds">
+              <label for="street_address"
+                >street:
+                <input
+                  required
+                  type="text"
+                  id="street_address"
+                  name="street_address"
+                />
+              </label>
+            </div>
+
+            <div class="feilds">
+              <label for="city"
+                >city:
+                <input required type="text" id="city" name="city" />
+              </label>
+            </div>
+          </div>
+
+          <div class="f2">
+            <div class="feilds">
+              <label for="state"
+                >state:
+                <input required type="text" id="state" name="state" />
+              </label>
+            </div>
+
+            <div class="feilds">
+              <label for="pincode"
+                >pincode:
+                <input required type="number" id="pincode" name="pincode" />
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <h2>Contact Details:</h2>
+
+        <div class="contact">
+          <label for="contact_number"
+            >contact number:
+            <input
+              required
+              type="number"
+              id="contact_number"
+              name="contact_number"
+            />
+          </label>
+        </div>
+
+        <h2>Rating:</h2>
+
+        <div class="product">
+          <div class="quality">
+            <h4>Quality of product:</h4>
+
+            <label for="excellent">
+              <input
+                required
+                type="radio"
+                id="excellent"
+                value="Excellent"
+                name="quality_of_products_received_rating"
+              />
+              Excellent
+            </label>
+
+            <label for="good">
+              <input
+                required
+                type="radio"
+                id="good"
+                value="Good"
+                name="quality_of_products_received_rating"
+              />
+              Good
+            </label>
+
+            <label for="bad">
+              <input
+                required
+                type="radio"
+                id="bad"
+                value="Bad"
+                name="quality_of_products_received_rating"
+              />
+              Bad
+            </label>
+          </div>
+        </div>
+
+        <div class="delivery">
+          <h4>Delivery Rating:</h4>
+
+          <label for="excellent1">
+            <input
+              required
+              type="radio"
+              id="excellent1"
+              value="Excellent"
+              name="delivery_rating"
+            />
+            Excellent
+          </label>
+
+          <label for="good1">
+            <input
+              required
+              type="radio"
+              id="good1"
+              value="Good"
+              name="delivery_rating"
+            />
+            Good
+          </label>
+
+          <label for="bad1">
+            <input
+              required
+              type="radio"
+              id="bad1"
+              value="Bad"
+              name="delivery_rating"
+            />
+            Bad
+          </label>
+        </div>
+
+        <div class="value">
+          <h4>Value for Money Rating:</h4>
+
+          <label for="excellent2">
+            <input
+              required
+              type="radio"
+              id="excellent2"
+              value="Excellent"
+              name="value_for_money_rating"
+            />
+            Excellent
+          </label>
+
+          <label for="good2">
+            <input
+              required
+              type="radio"
+              id="good2"
+              value="Good"
+              name="value_for_money_rating"
+            />
+            Good
+          </label>
+
+          <label for="bad2">
+            <input
+              required
+              type="radio"
+              id="bad2"
+              value="Bad"
+              name="value_for_money_rating"
+            />
+            Bad
+          </label>
+        </div>
+
+        <div class="button_block">
+          <input class="button" type="submit" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
